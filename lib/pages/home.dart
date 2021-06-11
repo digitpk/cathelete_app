@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage>
     ComingSoonPage(),
     ComingSoonPage(),
     ComingSoonPage(),
-    ComingSoonPage(),
+    NewsPage(),
   ];
 
   @override
