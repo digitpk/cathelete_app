@@ -122,7 +122,7 @@ dependencies:
 
   #  flutter_downloader: ^1.5.2
   #  permission_handler: ^5.1.0+2
-  # flutter_inappwebview: ^5.3.2
+  flutter_inappwebview: ^5.3.2
   #  flutter_webview_plugin: ^0.3.11
 
 dev_dependencies:
