@@ -1,0 +1,240 @@
+name: cathelete
+description: A mobile application.
+
+publish_to: 'none'
+
+version: 0.0.1+7
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  animated_bottom_navigation_bar: ^0.1.2+2
+
+  badges: ^1.1.1
+  cached_network_image: ^2.3.3
+  connectivity: ^2.0.2
+  cupertino_icons: ^1.0.0
+  dots_indicator: ^1.0.0
+  easy_localization: any
+  flutter_custom_tabs: ^0.6.0
+  flutter_html: ^0.11.1
+  flutter_icons: ^1.1.0
+  google_fonts: ^1.1.1
+  html_unescape: ^1.0.1+3
+  intl: any
+  launch_review: ^2.0.0
+  line_icons: ^2.0.1
+  xxtea: ^2.0.3
+  lottie: ^0.6.0
+  package_info: ^0.4.3+2
+  path_provider: ^1.6.24
+  provider: ^4.3.2+2
+  shared_preferences: ^0.5.12+4
+  skeleton_text: ^1.0.0
+  toast: ^0.1.5
+  url_launcher: any
+  snack: ^1.0.5
+  md2_tab_indicator: ^1.0.2
+  introduction_screen: ^1.0.9
+  google_nav_bar: ^5.0.5
+
+  sqflite: ^1.1.0
+  json_annotation: ^2.0.0
+  step_progress_indicator: ^0.2.5+8
+  carousel_slider: ^2.3.1
+
+  flutter_widget_from_html_core: ^0.5.1
+
+  flutter_swiper: ^1.1.6
+  percent_indicator: ^2.1.8
+  table_calendar: ^2.3.2
+  share: ^0.6.5+4
+  feedback: ^0.3.0
+  flutter_svg: ^0.19.2+1
+#  flutter_inappwebview: ^4.0.0+4
+  flutter_tts: ^2.0.0
+#  admob_flutter: ^1.0.1
+  intro_slider: ^2.3.3
+  wakelock: ^0.2.1
+
+  carousel_pro: ^1.0.0
+  page_transition: ^1.1.7+6
+  flutter_slidable: ^0.5.7
+  fluttertoast: ^7.1.6
+  intl_phone_number_input: ^0.4.6+2
+  flutter_spinkit: ^4.1.2+1
+  youtube_plyr_iframe: ^2.0.6
+
+  #  flutter_tts: 1.3.0
+  #  flutter_text_to_speech: ^3.0.7
+  #  url_launcher_web: ^0.1.5+1
+  #  ads: ^2.0.0
+  #  shared_preferences: ^0.5.12+4
+  #  shared_preferences: ^0.5.3+5
+  #  flutter_svg: ^0.19.2+1
+  #  flutter_svg: ^0.19.2+1
+  #  flutter_html: ^1.1.1
+
+
+
+  #  share: ^0.6.5+3
+  #  import_js_library: ^1.0.2
+  #  clipboard: ^0.1.2+8
+  #  flutter_share: ^1.0.5
+  #  smart_select: ^4.3.2
+  #  chips_choice: ^2.0.1
+  #  bottom_bar_with_sheet: ^0.6.1
+  #  story_view: ^0.12.8
+  #  bubble_tab_indicator: any
+  #  flutter_svg: any
+  #  flutter_inappwebview: ^5.3.2
+
+  #  adv_fab: ^1.0.5
+  #  google_nav_bar: any
+  #  image_picker: ^0.6.7+14
+  #  apple_sign_in: ^0.1.0
+  #  cloud_firestore: ^0.14.3
+  #  flutter_facebook_login: ^3.0.0
+  #  flutter_widget_from_html: ^0.5.1+5
+  #  google_sign_in: ^4.5.6
+  #  html: ^0.14.0+4
+
+  #  wakelock: ^0.2.1+1
+  #  change_app_package_name: ^0.1.2
+  #  encrypt: ^4.1.0
+  #  octo_image: ^0.3.0
+  #  dialog_context: ^0.1.2
+
+  #  youtube_player_flutter: ^7.0.0+7
+  #  animated_progress_button: ^1.0.2+1
+  #  rounded_loading_button: ^1.0.15
+  #  firebase_analytics: ^6.2.0
+
+  # flutter_native_splash: any
+  # firebase_admob: ^0.10.2
+  # facebook_audience_network: ^0.7.1
+
+  #  flutter_downloader: ^1.5.2
+  #  permission_handler: ^5.1.0+2
+  # flutter_inappwebview: ^5.3.2
+  #  flutter_webview_plugin: ^0.3.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.8.1
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/splash_screen.png"
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/gifs/
+    - assets/image/
+    - assets/icon/
+    - assets/quick_home_workout/
+    - assets/slider/
+    - assets/flat_abs_workout/
+    - assets/workout/
+    - assets/popular_workout/
+    - assets/trainer/
+    - assets/health_tips/
+    - assets/svg/for-me.svg
+    - assets/svg/books.svg
+    - assets/svg/dreams-ss-shilpa-shetty.svg
+    - assets/svg/latest.svg
+    - assets/svg/music.svg
+    - assets/svg/my-mags.svg
+    - assets/svg/my-news.svg
+    - assets/svg/opinion.svg
+    - assets/svg/photography.svg
+    - assets/svg/recipes.svg
+    - assets/svg/science.svg
+    - assets/svg/top10.svg
+    - assets/svg/top-reads.svg
+    - assets/svg/trending.svg
+    - assets/svg/viral.svg
+    - assets/ad_300_250.jpeg
+    - assets/splash_screen.png
+    - assets/icon.png
+    - assets/splash.png
+    - assets/fitness.png
+    - assets/news1.png
+    - assets/news2.png
+    - assets/news3.png
+    - assets/news4.png
+    - assets/news5.png
+    - assets/news6.png
+    - assets/news7.png
+    - assets/done.json
+    - assets/translations/
+
+
+  fonts:
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
+
+    - family: Open Sans
+      fonts:
+        - asset: assets/fonts/OpenSans-Light.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 500
+        - asset: fonts/OpenSans-Bold.ttf
+        - asset: fonts/OpenSans-ExtraBold.ttf
+        - asset: fonts/OpenSans-Regular.ttf
+        - asset: fonts/OpenSans-SemiBold.ttf
+
+    - family: Manrope
+      fonts:
+        # - asset: assets/fonts/Manrope-Light.ttf
+        #   weight: 300
+        - asset: assets/fonts/Manrope-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Manrope-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Manrope-ExtraBold.ttf
+          weight: 900
+
+    - family: Shippori Mincho B1
+      fonts:
+        - asset: assets/fonts/ShipporiMinchoB1-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/ShipporiMinchoB1-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/ShipporiMinchoB1-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/ShipporiMinchoB1-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/ShipporiMinchoB1-ExtraBold.ttf
+          weight: 800
